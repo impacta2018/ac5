@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt -br">
+<head>
+    <meta charset="UTF-8">
+    <title>Nova Disciplina</title>
+    <link rel="icon" href="images/favicon.ico">   
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body class="text-center">
+    <header class="flex space-between">
+            <section class="margin">
+                    <object data="images/impacta.svg" type=""></object>
+            </section>
+            <nav class="menu">
+                    <ul class="flex">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="atividades.html">ATIVIDADES</a></li>
+                            <li><a href="disciplina.html">DISCIPLINA</a></li>
+                            <li><a href="aluno.html">ALUNO</a></li>
+                            <li><a href="login.html">LOGIN</a></li>
+                    </ul>
+            </nav>
+    </header>
+    <main>
+        <h1>Disciplinas Ofertadas</h1>
+        <form>
+            <input class="padrao" type="text" name="nomeUser" maxlength="50" size="55" placeholder="Nome">
+            <!--<label>Selecione a data</label>-->
+            <input class="padrao" id="date" type="date">
+            <!--<label>Selecione o semestre</label><br>-->
+            <select class="padrao">
+                <option></option>
+                <option name="semestre" value="primeiro">1º Semestre</option>
+                <option name="semestre" value="segundo">2º Semestre</option>
+                <option name="semestre" value="terceiro">3º Semestre</option>
+                <option name="semestre" value="quarto">4º Semestre</option>
+                <option name="semestre" value="quinto">5º Semestre</option>
+                <option name="semestre" value="sexto">6º Semestre</option>
+                <option name="semestre" value="setimo">7º Semestre</option>
+                <option name="semestre" value="oitavo">8º Semestre</option>
+                 <br><br><br>
+            </select><br><br>
+            <label>Ementa</label><br>
+            <textarea name="obs" rows="20" cols="70"> </textarea><br><br>
+            <input class="blue-buttom padrao" type="submit" value="Cadastrar">
+        </form>
+    </main>
+</body>
+</html>
